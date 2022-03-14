@@ -1,0 +1,16 @@
+﻿{
+  "profiles": {
+    "WebCrawlerPOC.HostedService": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development",
+        "MONGO_DB_NAME": "POC",
+        "MONGO_CONNECTION_STRING": "mongodb://localhost:27017",
+        "KAFKA_HOST": "localhost:9092",
+        "KAFKA_TOPIC": "POC",
+        "KAFKA_CONSUMER_GROUP": "POC_CONSUMER"
+      }
+    }
+  }
+}

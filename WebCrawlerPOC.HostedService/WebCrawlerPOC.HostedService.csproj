@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>dotnet-WebCrawlerPOC.HostedService-889499A4-042B-4537-A36A-2453ED731FFB</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebCrawlerPOC.Domain\WebCrawlerPOC.Domain.csproj" />
+    <ProjectReference Include="..\WebCrawlerPOC.Infrastructure\WebCrawlerPOC.Infrastructure.csproj" />
+    <ProjectReference Include="..\WebCrawlerPOC.Services\WebCrawlerPOC.Services.csproj" />
+  </ItemGroup>
+</Project>
